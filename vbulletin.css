@@ -1,0 +1,494 @@
+/**
+* vBulletin 3.8.7 CSS
+* Style: 'RareWareCentral 2.0'; Style ID: 121
+*/
+body
+{
+	background: #003E72 url(images/rwc2/grad_bg.png) repeat-x top left;
+	color: #ffffff;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 0px 10px 10px 10px;
+	padding: 0px;
+}
+a:link, body_alink
+{
+	color: #333333;
+}
+a:visited, body_avisited
+{
+	color: #333333;
+}
+a:hover, a:active, body_ahover
+{
+	color: #000000;
+}
+.page
+{
+	background: #ffffff;
+	color: #333333;
+}
+td, th, p, li
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.tborder
+{
+	color: #333333;
+	padding: 1px;
+	border: 1px solid #333333;
+}
+.tcat
+{
+	background: #8e8f8e url(images/rwc2/forumgrad.png) repeat-x top left;
+	color: #f7f7f7;
+	font: bold 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	border: 1px solid #333333;
+}
+.tcat a:link, .tcat_alink
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:visited, .tcat_avisited
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+.tcat a:hover, .tcat a:active, .tcat_ahover
+{
+	color: #f7f7f7;
+	text-decoration: underline;
+}
+.thead
+{
+	background: #292929 url(images/rwc2/navmenu.png) repeat-x top left;
+	color: #f7f7f7;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.thead a:link, .thead_alink
+{
+	color: #FFFFFF;
+}
+.thead a:visited, .thead_avisited
+{
+	color: #FFFFFF;
+}
+.thead a:hover, .thead a:active, .thead_ahover
+{
+	color: #f7f7f7;
+}
+.tfoot
+{
+	background: #2a2a2a;
+	color: #f7f7f7;
+}
+.tfoot a:link, .tfoot_alink
+{
+	color: #f7f7f7;
+}
+.tfoot a:visited, .tfoot_avisited
+{
+	color: #f7f7f7;
+}
+.tfoot a:hover, .tfoot a:active, .tfoot_ahover
+{
+	color: #eeeeee;
+}
+.alt1, .alt1Active
+{
+	background: #ffffff;
+	color: #333333;
+}
+.alt2, .alt2Active
+{
+	background: #f7f7f7;
+	color: #333333;
+}
+.inlinemod
+{
+	background: #FFFFCC;
+	color: #000000;
+}
+.wysiwyg
+{
+	background: #F5F5FF;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 5px 10px 10px 10px;
+	padding: 0px;
+}
+.wysiwyg a:link, .wysiwyg_alink
+{
+	color: #000000;
+}
+.wysiwyg a:visited, .wysiwyg_avisited
+{
+	color: #000000;
+}
+.wysiwyg a:hover, .wysiwyg a:active, .wysiwyg_ahover
+{
+	color: #FF4400;
+}
+textarea, .bginput
+{
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.bginput option, .bginput optgroup
+{
+	font-size: 10pt;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.button
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+select
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+option, optgroup
+{
+	font-size: 11px;
+	font-family: verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.smallfont
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.time
+{
+	color: #505050;
+}
+.navbar
+{
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.highlight
+{
+	color: #FF0000;
+	font-weight: bold;
+}
+.fjsel
+{
+	background: #ececec;
+	color: #f7f7f7;
+}
+.fjdpth0
+{
+	background: #F7F7F7;
+	color: #000000;
+}
+.panel
+{
+	background: #f7f7f7;
+	color: #000000;
+	padding: 10px;
+	border: 1px outset;
+}
+.panelsurround
+{
+	background: #ffffff;
+	color: #000000;
+}
+legend
+{
+	color: #000000;
+	font: 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control
+{
+	background: #000;
+	color: #f7f7f7;
+	font: bold 11px tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.vbmenu_control a:link, .vbmenu_control_alink
+{
+	color: #f7f7f7;
+	text-decoration: none;
+}
+.vbmenu_control a:visited, .vbmenu_control_avisited
+{
+	color: #f7f7f7;
+	text-decoration: none;
+}
+.vbmenu_control a:hover, .vbmenu_control a:active, .vbmenu_control_ahover
+{
+	color: #f7f7f7;
+	text-decoration: underline;
+}
+.vbmenu_popup
+{
+	background: #FFFFFF;
+	color: #000000;
+	border: 1px solid #000000;
+}
+.vbmenu_option
+{
+	background: #f7f7f7;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_option a:link, .vbmenu_option_alink
+{
+	color: #000000;
+	text-decoration: none;
+}
+.vbmenu_option a:visited, .vbmenu_option_avisited
+{
+	color: #000000;
+	text-decoration: none;
+}
+.vbmenu_option a:hover, .vbmenu_option a:active, .vbmenu_option_ahover
+{
+	color: #FF4400;
+	text-decoration: none;
+}
+.vbmenu_hilite
+{
+	background: #ececec;
+	color: #000000;
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.vbmenu_hilite a:link, .vbmenu_hilite_alink
+{
+	color: #000000;
+	text-decoration: none;
+}
+.vbmenu_hilite a:visited, .vbmenu_hilite_avisited
+{
+	color: #000000;
+	text-decoration: none;
+}
+.vbmenu_hilite a:hover, .vbmenu_hilite a:active, .vbmenu_hilite_ahover
+{
+	color: #000000;
+	text-decoration: none;
+}
+/* ***** styling for 'big' usernames on postbit etc. ***** */
+.bigusername { font-size: 14pt; }
+
+/* ***** small padding on 'thead' elements ***** */
+td.thead, th.thead, div.thead { padding: 4px; }
+
+/* ***** basic styles for multi-page nav elements */
+.pagenav a { text-decoration: none; }
+.pagenav td { padding: 2px 4px 2px 4px; }
+
+/* ***** de-emphasized text */
+.shade, a.shade:link, a.shade:visited { color: #777777; text-decoration: none; }
+a.shade:active, a.shade:hover { color: #FF4400; text-decoration: underline; }
+.tcat .shade, .thead .shade, .tfoot .shade { color: #DDDDDD; }
+
+/* ***** define margin and font-size for elements inside panels ***** */
+.fieldset { margin-bottom: 6px; }
+.fieldset, .fieldset td, .fieldset p, .fieldset li { font-size: 11px; }
+
+.copyright
+{
+color: #FFFFFF;
+font: 10px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.lightsmallfont
+{
+color: #FFFFFF;
+font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+.lightsmallfont a:link
+{
+color: #FFFFFF;
+}
+.lightsmallfont a:visited
+{
+color: #FFFFFF;
+}
+.lightsmallfont a:hover
+{
+color: #FF4400;
+}
+
+.newscomment
+{
+border: 1px solid #000;
+background: #c8d5c7;
+}
+.browserTF
+{
+margin:0px;
+padding:0px;
+width: 120px;
+height: 15px;
+}
+
+.main_menu_link
+{
+float:left;
+margin-left:22px;
+padding-top:5px;
+color: #f7f7f7
+font: tahoma, verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+.rightLink
+{
+ float:right;
+ margin:0px;
+ padding:0px;
+ margin-right:48px;
+}
+
+.leftLink
+{
+ float:left;
+ margin:0px;
+ padding:0px;
+}
+.search
+{
+float:right;
+margin:0px auto;
+padding:0px;
+margin-right:6px;
+height: 30px;
+width:160px;
+}
+
+.sbox
+{
+margin: 0px;
+padding: 0px;
+margin-right: 12px;
+margin-top: 5px;
+float:left;
+width: 120px;
+}
+
+.sImg
+{
+margin: 0px;
+padding: 0px;
+margin-left: 5px;
+width: 22px;
+float:left;
+}
+
+#navigation {
+margin:0px;
+padding:0px;
+font:bold 16px "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+         background:url('images/rwc2/headernav.png') no-repeat;
+	/*background-color: #000000;*/
+	text-align: center;
+	height: 30px;
+width:956px;
+
+}
+
+#navigation a
+{
+   padding:0px;
+   margin:0px;
+}
+
+#navigation a:link {
+font:bold 16px "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+         padding: 0px;
+         margin: 0px;
+}
+#navigation a:active {
+font:bold 16px "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+#navigation a:visited {
+font:bold 16px "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+#navigation a:hover {
+font:bold 16px "Trebuchet MS";
+	font-size: 13px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #FFFFFF;
+	text-decoration: none;
+	text-align: center;
+}
+
+#container {
+width:956px;
+height:18px;
+padding:0px;
+margin: 0px;
+background:url(images/rwc2/secondnavbg.png) repeat-x;
+}
+#container a
+{
+color:#FFF;
+text-decoration: none;
+margin-left:10px;
+}
+
+nav2 {
+background:url(images/rwc2/secondnavbg.png) repeat-x center top;
+margin:0px;
+padding 0px;
+list-style-type:none;
+height:16px;
+}
+nav2 li {
+float:left;
+margin-left:-52px
+}
+nav2 li a {
+display:block;
+font: 12px "Trebuchet MS";
+text-decoration:none;
+color:#ffffff;
+padding:3px 25px 0px;
+letter-spacing: 0.1em;
+}
+ul#nav2 li a:hover {
+center bottom;
+color:#ffffff;
+}
+ul#nav2 li a#current {
+color:#ffffff;
+}
